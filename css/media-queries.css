@@ -58,7 +58,6 @@ li{
 footer img {
     max-width: 3%;
     margin-bottom: -1.2em;
-    /*justify-content: flex-end;*/
     float: right;
 }
 
@@ -69,8 +68,35 @@ footer p {
     float: left;
 }
 
-@media screen and (min-width: 934px){
+@media screen and (min-width: 950px){
+    .hidden-on-desktop{
+        display: none;
+    }
+    ul{
+        float: right;
+        margin-top: 3em;
+    }
 
-
+    li{
+        text-align: right;
+        font-weight: bold;
+        background-color: white;
+        display: inline;
+    }
+    h1{
+        float: left;
+    }
+    .main{
+        float: left;
+        width: 66%;
+    }
+    .sub-section {
+        float: right;
+        width: 33%;
+    }
+    footer {
+        position: absolute;
+        margin: 200px 10px;
+    }
 
 }
