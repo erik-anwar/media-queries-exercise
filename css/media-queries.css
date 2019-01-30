@@ -36,7 +36,7 @@ ul {
 nav li{
     background-color: silver;
     padding: 1em;
-    margin: 1em 0em;
+    margin: 1em 0;
     text-align: center;
     font-weight: bold;
 }
@@ -85,12 +85,14 @@ footer li {
 }
 
 footer img {
+    float: right;
+    margin-top: 18px;
 
 }
-
-footer {
+footer p{
     float: left;
 }
+
 
 @media screen and (min-width: 950px) {
 
@@ -124,9 +126,9 @@ footer {
         width: 33%;
     }
 
-    footer p {
-        /*float: left*/
-    }
+    /*footer p {*/
+        /*!*float: left*!*/
+    /*}*/
 
     /*footer {*/
         /*!*margin: 200px 10px;*!*/
